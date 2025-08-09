@@ -1,0 +1,11 @@
+Do not take input in LibraryManagementClient → This class should just store/retrieve data.
+
+LibraryManagementApp → Handles menu/option logic (e.g., switch-case), but avoid detailed input gathering here.
+
+LibraryManagementImpl → Should handle collecting all necessary inputs for its logic and pass fully built objects to the client.
+
+🧠 Summary
+Class	Should Read Scanner Inputs?	Why
+LibraryManagementApp	❌ (mostly avoid)	Keep it clean; only manage menu/choices
+LibraryManagementImpl	✅ Yes	Gathers inputs, builds objects, handles use-cases
+LibraryManagementClient	❌ Never	Only stores and fetches data (acts like a database)
