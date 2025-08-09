@@ -1,0 +1,1 @@
+A Java console-based application to manage books and users. Supports adding, searching, issuing, and returning books with proper input validation and custom exception handling for invalid IDs and already issued books. Designed with clean separation of concerns for easy maintenance and scalability.
